@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#17392f">
+<meta name="description" content="Moony Music Box 매장 발주 요청서">
+<title>Moony Music Box · 발주서</title>
+<link rel="stylesheet" href="./style.css">
+<script type="module" src="./app.js"></script>
+</head>
+<body>
+<header class="top"><div class="wrap brandbar">
+  <button id="brand" class="brand" type="button" aria-label="Moony Music Box 홈">
+    <svg viewBox="0 0 40 40" aria-hidden="true">
+      <circle cx="20" cy="20" r="19" fill="#f0e8d2"/>
+      <g fill="none" stroke="#28493b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="9.5" y="22" width="21" height="8.5" rx="2"/>
+        <path d="M9.5 23.5v-5.2a2 2 0 0 1 1.5-1.9l6-1.6M24 16v-6.5l5-1.2v6.5"/>
+      </g>
+      <g fill="#28493b">
+        <ellipse cx="22.5" cy="16.5" rx="2.3" ry="1.6" transform="rotate(-20 22.5 16.5)"/>
+        <ellipse cx="27.5" cy="15.3" rx="2.3" ry="1.6" transform="rotate(-20 27.5 15.3)"/>
+        <circle cx="20" cy="26.2" r="1.2"/>
+      </g>
+    </svg>
+    <span>Moony Music Box<small>매장 발주서</small></span>
+  </button>
+  <span class="store-label">매장 업무용</span>
+</div></header>
+<main id="main" class="wrap" tabindex="-1"></main>
+<footer class="dock" aria-label="발주서 메뉴"><div class="wrap dock-inner">
+  <button id="home" class="secondary" type="button">카테고리</button>
+  <button id="summary" class="primary" type="button">발주서 보기</button>
+</div></footer>
+<div class="sr-only" id="announcement" role="status"></div>
+</body>
+</html>
